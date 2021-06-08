@@ -1,0 +1,474 @@
+@font-face {
+    font-family: 'TradeGothicLTStdRegular';
+    src: url('../fonts/tradegothicltstd.eot');
+    src: url('../fonts/tradegothicltstd.eot') format('embedded-opentype'),
+    url('../fonts/tradegothicltstd.woff') format('woff'),
+    url('../fonts/tradegothicltstd.ttf') format('truetype'),
+    url('../fonts/tradegothicltstd.svg#TradeGothicLTStdRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'TradeGothicLTStdBold';
+    src: url('../fonts/tradegothicltstd-bold.eot');
+    src: url('../fonts/tradegothicltstd-bold.eot') format('embedded-opentype'),
+    url('../fonts/tradegothicltstd-bold.woff') format('woff'),
+    url('../fonts/tradegothicltstd-bold.ttf') format('truetype'),
+    url('../fonts/tradegothicltstd-bold.svg#TradeGothicLTStdBold') format('svg');
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	position: relative;
+}
+
+.conteudo-banner {
+	display: block;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.menuTopo {
+	background-color: #fff;
+	height: 110px;
+	border: 0px;
+	margin-bottom: 0px;
+	-webkit-box-shadow: 0px 5px 7px 0px rgba(50, 50, 50, 0.39);
+	-moz-box-shadow:    0px 5px 7px 0px rgba(50, 50, 50, 0.39);
+	box-shadow:         0px 5px 7px 0px rgba(50, 50, 50, 0.39);
+	padding-top: 20px;
+}
+
+.menuTopo_G {
+	margin-top: 35px;
+	float: right;
+}
+
+.menuTopo_P {
+	float: right;
+}
+
+.menuTopo ul {
+	list-style: none;
+}
+
+.menuTopo ul li {
+	display: block;
+	float: left;
+	padding: 7px;
+}
+
+.menuTopo_G li a, .menuTopo_P li a {
+	font-size: 14px;
+	font-family: 'TradeGothicLTStdRegular';
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.menuTopo_G ul li a, .menuTopo_P ul li a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.menuTopo_G ul li, .menuTopo_P ul li {
+	position: relative;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	margin-right: 6px;
+}
+
+.menuTopo_G ul li .icone-menu {
+	display: none;
+	position: absolute;
+	top: -40px;
+	left: 25%;
+	color: #000;
+}
+
+.active, .active a {
+	background-color: #3E2D10;
+	color: #fff !important;
+}
+
+.active .icone-menu {
+	display: block;
+}
+
+.menuTopo_G li:hover, .menuTopo_P li:hover,
+.menuTopo_G li.over, .menuTopo_P li.over {
+	color: #fff !important;
+	background-color: #3E2D10;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.menuTopo_G li:hover .icone-menu,
+.menuTopo_G li.over .icone-menu {
+	display: block;
+}
+
+.menuTopo_G li:hover a, .menuTopo_P li:hover a,
+.menuTopo_G li:hover a, .menuTopo_P li:hover a {
+	color: #fff !important;
+}
+
+.logo {
+	display: block;
+	float: left;	
+}
+
+.btn-default {
+	background-color: #1F1709 !important;
+	color: #fff !important;
+	border: 0px;
+}
+
+.btn-default:hover, .btn-default.over {
+	background-color: #000 !important;
+	border: 0px;
+}
+
+.menu-rodape ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-rodape ul li {
+	display: block;
+	float: left;
+	width: 100%;
+	padding: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 14px !important;
+	text-transform: uppercase;
+	color: #fff !important;
+}
+
+.menu-rodape ul li a {
+	color: #fff !important;
+}
+
+.titulo-rodape {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px !important;	
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.formulario-rodape {
+	display: block;
+	float: left;
+	width: 100%;
+	margin-top: 10px;	
+}
+
+.texto-telefone {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.texto-email {
+	margin-bottom: 15px;	
+}
+
+.rodape {
+	/* old color #c9840c */
+	background-color: #c2953c;
+	border-bottom: 6px #3e2d10 solid;
+	display: block;
+	float: left;
+	width: 100%;
+	padding-top: 25px;	
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+/* Align footer */
+.align-footer {
+	display: flex;
+    justify-content: center;
+}
+
+/* Style of new Rodapé */
+.rodapeNS {
+	margin-top: 15vh !important;
+}
+
+/* align message alert in modal */
+.message-modal-alert {
+	width: 95%;
+    margin: auto;
+}
+
+.iptform {
+	display: block;
+	background-color: #FAFAFA;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 0px;
+	padding: 7px;
+	float: left;
+	margin-right: 5px;	
+}
+
+.iptfull {
+	margin-bottom: 5px;	
+}
+
+.banner {
+	display: block;
+	float: left;
+	height: 400px;
+	width: 100%;
+	/* old image url("../img/bg_banner.jpg") */
+	background-image: url("../img/bg_banner4.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-attachment: fixed;
+	-webkit-box-shadow: 0px 5px 16px 0px rgba(50, 50, 50, 0.39);
+	-moz-box-shadow:    0px 5px 16px 0px rgba(50, 50, 50, 0.39);
+	box-shadow:         0px 5px 16px 0px rgba(50, 50, 50, 0.39);
+}
+
+.media-heading {
+	margin-top: 25px;	
+}
+
+.meio {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.botao-info {
+	margin-top: 7px;	
+}
+
+.fundo_gradiente {
+	background: #f7f7f7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f7f7f7 15%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#f7f7f7), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f7f7f7 15%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f7f7f7 15%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f7f7f7 15%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f7f7f7 15%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */		
+}
+
+.titulo-banner1 {
+	display: block;
+	position: absolute;
+	top: 40px;
+	left: 9%;
+	background-color: rgba(0,0,0,0.7);
+	font-family: 'TradeGothicLTStdBold';
+	font-size: 32px;
+	color: #fff;
+	padding: 10px;
+	z-index: 2;
+	/* add border-radius */
+	border-radius: 6px;
+}
+
+.titulo-banner2 {
+	display: block;
+	position: absolute;
+	top: 100px;
+	left: 9%;
+	/* old color rgba(215,146,27,0.7); */
+	background-color: rgba(194, 149, 60,0.7);
+	font-family: 'TradeGothicLTStdBold';
+	font-size: 22px;
+	color: #fff;
+	padding: 10px;
+	z-index: 2;
+	/* add border-radius */
+	border-radius: 6px;
+}
+
+.item-banner1 {
+	display: block;
+	position: absolute;
+	width: 350px;
+	top: 110px;
+	left: 9%;
+	z-index: 2;
+}
+
+.item-banner1 ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.item-banner1 ul li {
+	display: block;
+	float: left;
+	background-color: rgba(250,200,125,0.7);
+	font-family: 'TradeGothicLTStdRegular';
+	font-size: 20px;
+	color: #000;
+	padding: 5px;
+	margin-bottom: 5px;
+	/* add border-radius */
+	border-radius: 6px;
+}
+
+.item-banner2 {
+	display: block;
+	position: absolute;
+	top: 280px;
+	right: 9%;
+}
+
+#caixaNewsletter input {
+	width: 100%;
+	color: #000;
+}
+
+.media {
+	padding-bottom: 25px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+.cinza {
+	background-color: #f5f5f5;
+}
+
+.caixaInterna {
+	display: block;
+	float: left;
+	width: 100%;
+	padding: 30px;
+	background-color: #fff;
+	/* box-shadow */
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%), 0 6px 20px 0 rgb(0 0 0 / 20%);
+	border-radius: 5px;
+}
+
+.conteudoEmpresa {
+	text-align: justify;
+}
+
+.well {
+	font-size: 16px;
+}
+
+.menuTopo_P {
+	display: none;
+}
+
+.fb-page, 
+.fb-page span, 
+.fb-page span iframe[style] { 
+    width: 100% !important; 
+}
+
+.sideServicos {
+	display: block;
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	padding: 20px;
+	border: 20px;
+	text-align: center;
+}
+
+.sideServicos .btn {
+	margin-top: 8px;
+}
+
+.modal {
+	color: #000;
+}
+
+/* styles of alerts */
+.hide {
+	display: none !important;
+}
+
+.show {
+	display: block !important;
+}
+
+@media (max-width: 1024px) {
+	
+	.menuTopo_P {
+		display: block;
+	}
+	
+	.menuTopo_G {
+		display: none;
+	}
+	
+	#menuRodapeID {
+		display: none;
+	}	
+	
+	.rodape {
+		margin-top: 30px;
+	}
+	
+	.rodape .col-md-2, .rodape .col-md-3,.rodape .col-md-4 {
+		display: block;
+		float: left;
+		width: 100%;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		border-bottom: 1px solid #080808;
+	}
+	
+	.caixaSidebar {
+		background-color: #fff;
+		padding-bottom: 40px;
+	}
+	
+}
+
+@media (max-width: 750px) {
+	
+	.menuTopo {
+		height: auto;
+	}
+	
+	.logo {
+		display: block;
+		float: inherit;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	
+	.menuTopo_P {
+		display: block;
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.menuTopo_P ul li {
+		display: inline-block;
+		float: inherit;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+}
